@@ -1,5 +1,5 @@
 #include "main.h"
-/**
+0;136;0c/**
  *shows 1 if the input is a lowercse
  *else shows  0
  */
@@ -13,5 +13,5 @@ int _islower(int c)
     {
       return (0);
     }
-  _putchar('/n');
+  _putchar('\n');
 }
