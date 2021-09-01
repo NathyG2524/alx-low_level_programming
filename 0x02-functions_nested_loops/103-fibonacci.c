@@ -3,7 +3,7 @@
  *
  *main - This is a list of
  *fabionacci series up to 50
- * return: nothing. 
+ * return: nothing.
  */
 int main(void)
 {
@@ -18,7 +18,7 @@ int main(void)
                 i = j;
                 j = l;
                 printf("%lu", sums);
-                if (k % 2 == 0 )
+                if (l % 2 == 0 && l < 4000000 )
                 {
                     sums += l;
                  }
