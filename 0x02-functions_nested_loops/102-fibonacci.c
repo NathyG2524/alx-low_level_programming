@@ -16,7 +16,7 @@ int main(void)
 		i = j;
 		j = l;
 		printf("%lu", l);
-		if (l == 49)
+		if (k == 49)
 			putchar('\n');
 		else
 		{
