@@ -9,10 +9,10 @@ int main(void)
 	unsigned long i, j, k, l, sums;
 
 	i = 0;
-        j = 1;
-        sums = 0;
-        for (k = 0; k < 50; k++)
-        {
+	j = 1;
+	sums = 0;
+	for (k = 0; k < 50; k++)
+	{
                 l = i + j;
                 i = j;
                 j = l;
