@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- *
- *main - This is a list of
+ *main- This is a list of
  *fabionacci series up to 50
  * return: nothing.
  */
@@ -12,18 +11,17 @@ int main(void)
         i = 0;
         j = 1;
         sums = 0;
-        for (k = 0; k < 4000000; k++)
+        for (k = 0; k < 50; k++)
         {
                 l = i + j;
                 i = j;
                 j = l;
-                printf("%lu", sums);
                 if (l % 2 == 0 && l < 4000000 )
                 {
                     sums += l;
                  }
-                 printf("%lu", sums);
-		 putchar('\n');
         }
+        printf("%lu", sums);
+        putchar('\n');
         return (0);
 }
