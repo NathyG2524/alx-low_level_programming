@@ -13,15 +13,15 @@ int main(void)
 	sums = 0;
 	for (k = 0; k < 50; k++)
 	{
-                l = i + j;
-                i = j;
-                j = l;
-                if (l % 2 == 0 && l < 4000000 )
-                {
-                    sums += l;
-                 }
-        }
-        printf("%lu", sums);
-        putchar('\n');
-        return (0);
+		l = i + j;
+		i = j;
+		j = l;
+		if (l % 2 == 0 && l < 4000000 )
+		{
+			sums += l;
+		}
+	}
+	printf("%lu", sums);
+	putchar('\n');
+	return (0);
 }
