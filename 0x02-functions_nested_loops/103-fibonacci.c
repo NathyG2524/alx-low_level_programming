@@ -23,7 +23,7 @@ int main(void)
                     sums += l;
                  }
                  printf("%lu", sums);
-                 putchar('\n')
+		 putchar('\n');
         }
         return (0);
 }
