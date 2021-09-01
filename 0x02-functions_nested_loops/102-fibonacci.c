@@ -1,13 +1,12 @@
 #include <stdio.h>
 /**
- *
- *This is a list of
+ *main - This is a list of
  *fabionacci series up to 50
- *
+ *Return: Nothing.
  */
 int main(void)
 {
-	int i, j, k, l;
+	unsigned long i, j, k, l;
 
 	i = 0;
 	j = 1;
@@ -16,7 +15,7 @@ int main(void)
 		l = i + j;
 		i = j;
 		j = l;
-		printf("%d", l);
+		printf("%lu", l);
 		if (l == 49)
 			putchar('\n');
 		else
