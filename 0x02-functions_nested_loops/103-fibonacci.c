@@ -2,13 +2,13 @@
 /**
  *main- This is a list of
  *fabionacci series up to 50
- * return: nothing.
+ *Return: nothing.
  */
 int main(void)
 {
-        unsigned long i, j, k, l, sums;
+	unsigned long i, j, k, l, sums;
 
-        i = 0;
+	i = 0;
         j = 1;
         sums = 0;
         for (k = 0; k < 50; k++)
