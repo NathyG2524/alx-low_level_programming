@@ -2,7 +2,8 @@
 
 /**
  *_strlen - is used to determine the length of a string.
- * Return : not.
+ *@s: string to count.
+ *Return: not.
  */
 int _strlen(char *s)
 {
