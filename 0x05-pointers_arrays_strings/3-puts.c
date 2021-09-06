@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *puts - prints a string, to stdout
+ *_puts - prints a string, to stdout
  *@str: value to be evaluate
  *Retrun: not.
  */
