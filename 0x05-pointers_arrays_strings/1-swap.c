@@ -1,22 +1,14 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- *swap_int - switches value of first input with the value of the second input.
- *
- * @a: First value to swap.
- *
- * @b: Second value to swap.
- *
- * Return: Always 0.
+ *swap_int - swaps the value of two integers.
+ *@a: value to be evaluate.
+ *@b: value to be evaluate.
+ *Return: not.
  */
-
-void swap_int(int *a, int *b)
+void swap_int(int*a, int*b)
 {
-	int temp;
-	temp = *a;
+	int n = *a;
 	*a = *b;
-	*b = temp;
+	*b = n;
 }
-
