@@ -3,7 +3,8 @@
 /**
  *binary_to_unit - a function that converts a binary number to an unsigned int
  *@b: is pointing to a string of 0 and 1 chars
- *Returns: the converted number or null
+ *
+ *Return: the converted number or null
  */
 
 unsigned int binary_to_uint(const char *b)
