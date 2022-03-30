@@ -42,7 +42,7 @@ if (size == 1)
 return (array[left]);
 }
 
-while (left < right)
+while (left <= right)
 {
 prar(array, left, right);
 mid = ((left + right) / 2);
@@ -57,7 +57,7 @@ left = mid + 1;
 }
 else if (value < array[mid])
 {
-right = mid;
+right = mid - 1;
 }
 }
 return (-1);
