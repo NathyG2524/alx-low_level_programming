@@ -48,7 +48,7 @@ prar(array, left, right);
 mid = ((left + right) / 2);
 if (value == array[mid])
 {
-return mid;
+return (mid);
 }
 
 else if (value > array[mid])
@@ -60,5 +60,5 @@ else if (value < array[mid])
 right = mid;
 }
 }
-return -1;
+return (-1);
 }
