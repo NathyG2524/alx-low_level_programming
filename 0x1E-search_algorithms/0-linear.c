@@ -18,7 +18,7 @@ if (array == NULL)
 return (-1);
 for (n = 0; n <= size; n++)
 {
-printf("Value checked array[%d] = [%d]\n", n, array[n]);
+printf("Value checked array[%ld] = [%d]\n", n, array[n]);
 if (value == array[n])
 {
 return (n);
